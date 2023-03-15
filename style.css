@@ -1,7 +1,14 @@
 /* Landing page */
+html{
+  min-height: 100%;
+  position: relative;
+}
 body {
     background-color: #FBF8F3;
+    padding-top: 56px;
+    margin: 10px;
   }
+
   
   a, .nav-link{
     color: #000000;
@@ -10,14 +17,36 @@ body {
   .navbar-brand{
     font-weight: 700;
   }
-  
-.pet-photos{
-    display: flex;
-    border: solid #333 2px;
-    border-radius: 2px;
-    padding: 20px;
-}
+
+
 
 #email{
   bottom: 0px;
+}
+
+#pet{
+  background-color: aqua;
+  border: 2px solid black;
+  margin-top: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+
+}
+
+
+#about-footer{
+    position:absolute;
+    bottom: 0px;
+    height: 90px;
+    margin-left: 550px;
+
+}
+
+#home-footer{
+  position: absolute;
+  bottom: 0px;
+  height: 0px;
+  margin-left: 550px;
+  margin-top: 300px;
+
 }

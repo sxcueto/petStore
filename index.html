@@ -2,14 +2,6 @@
 <html lang="en">
 
 <!--
-    Added basic nav and footer to each section
-    Started the email subscription for footer
-    Did a layout for each section
--->
-
-
-
-<!--
     Requirments for pet store site:
 1. All of the pages should have the same navigation bar
 2. All of the pages should have the same footer
@@ -53,42 +45,36 @@
 
     <!-- jumbotron with a picture that says meet your future pet or something -->
 
+<header class="jumbotron jumbotron-fluid">
+    <div class="container-fluid text-center">
+        <h1 class="display-3">Meet your future pet!</h1>
+        <p class="lead pb-4">Browse through our website and find your furry best friend.</p>
+        <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn More</a></p>
+    </div>
+</header>
 
     <!-- photos of the pets and when you hover over the pics it shows a brief description like name, age, etc. -->
-    <div class="container">
-        <div class="pets">
-            <div class="pet-photos">
-                <h1>First pet</h1>
-            </div>
-        </div>
 
+    <div class="row justify-content-center">
 
-        <div class="pets">
-            <div class="pet-photos">
-                <h1>Second pet</h1>
-            </div>
-        </div>
+        <!-- first pet photo -->
+        <div class="col-6 col-sm-3" id="pet">pet 1</div>
+       
+        <!-- second photo -->
+        <div class="col-6 col-sm-3" id="pet">pet 2</div>
 
+        <div class="w-100"></div>
+        <!-- third photo -->
+        <div class="col-6 col-sm-3" id="pet" >pet 3</div>
+        <!-- fourth photo -->
+        <div class="col-6 col-sm-3" id="pet">pet 4</div>
 
-        <div class="pets">
-            <div class="pet-photos">
-                <h1>Third pet</h1>
-            </div>
-        </div>
-
-
-        <div class="pets">
-            <div class="pet-photos">
-                <h1>Fourth pet</h1>
-            </div>
-        </div>
     </div>
-
 
 
     <!-- footer-->
 
-    <footer>
+    <footer id="home-footer">
         <!-- email subscription -->
         <div class="container" id="email">
             <h4 class="header">Subscribe for store updates!</h4>
