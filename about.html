@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- core css and bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -35,22 +43,52 @@
 
     <!-- picture with title-->
 
-    <!--four images with a title below and a small description. ex: photo of vet with puppy = "exqsuite care..."-->
-    <div class="row justify-content-center">
+    <!--four images with a title below and a small description. ex: photo of vet with puppy = "exqsuite care..." (bootstrap cards)-->
+ 
 
-        <!-- first pet photo -->
-        <div class="col-6 col-sm-3" id="pet">pet 1</div>
+        <!-- about the shop -->
+      <div id="card-group" class="row row-cols-1 row-cols-md-2 g-4">
+        <div id="about-cards" class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Who We Are</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsum? Dolores vitae earum voluptates minima consequatur possimus veniam modi debitis.</p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
        
-        <!-- second photo -->
-        <div class="col-6 col-sm-3" id="pet">pet 2</div>
-
-        <div class="w-100"></div>
-        <!-- third photo -->
-        <div class="col-6 col-sm-3" id="pet" >pet 3</div>
-        <!-- fourth photo -->
-        <div class="col-6 col-sm-3" id="pet">pet 4</div>
-
+        <!-- care -->
+        <div id="about-cards" class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Caring for our animals</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsum? Dolores vitae earum voluptates minima consequatur possimus veniam modi debitis.</p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        
+        <!--pet shop charity-->
+        <div id="about-cards" class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">"Pet Shop" Charity</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsum? Dolores vitae earum voluptates minima consequatur possimus veniam modi debitis.</p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+          
+        <!-- employment -->
+        <div id="about-cards" class="card">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Careers</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsum? Dolores vitae earum voluptates minima consequatur possimus veniam modi debitis.</p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
     </div>
+
+
 
 
     <!-- footer-->

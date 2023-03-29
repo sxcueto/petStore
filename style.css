@@ -1,52 +1,77 @@
 /* Landing page */
-html{
+html {
   min-height: 100%;
   position: relative;
 }
+
 body {
-    background-color: #FBF8F3;
-    padding-top: 56px;
-    margin: 10px;
-  }
-
-  
-  a, .nav-link{
-    color: #000000;
-  }
-  
-  .navbar-brand{
-    font-weight: 700;
-  }
+  background-color: #FBF8F3;
+  padding-top: 56px;
+  margin: 10px;
+}
 
 
+a,
+.nav-link {
+  color: #000000;
+}
 
-#email{
+.navbar-brand {
+  font-weight: 700;
+}
+
+.jumbotron {
+  background: url(img/corgi1.jpg) no-repeat center;
+  background-size: cover;
+  padding: 5em inherit;
+}
+
+#email {
   bottom: 0px;
 }
 
-#pet{
+#pet {
   background-color: aqua;
   border: 2px solid black;
   margin-top: 150px;
-  margin-right: 150px;
-  margin-bottom: 50px;
+  margin-right: 90px;
+  margin-bottom: 45px;
+  padding: 200px;
 
 }
 
-
-#about-footer{
-    position:absolute;
-    bottom: 0px;
-    height: 90px;
-    margin-left: 550px;
-
-}
-
-#home-footer{
-  position: absolute;
+#home-footer {
+  /* position: absolute; */
+  display: table;
   bottom: 0px;
   height: 0px;
+  margin: 0 auto;
+
+
+}
+
+
+
+/* about page */
+
+#about-cards {
+  background-color: pink;
+  max-width: 35%;
+  max-height: fit-content;
+  margin: 50px 0 10px 0;
+  text-align: center;
+}
+
+#card-group {
+  justify-content: space-evenly;
+  margin-top: 75px;
+
+}
+
+#about-footer {
+  position: absolute;
+  bottom: 0px;
+  height: 90px;
   margin-left: 550px;
-  margin-top: 300px;
 
 }
