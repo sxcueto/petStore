@@ -40,7 +40,7 @@ a,
 
 }
 
-#home-footer {
+footer {
   /* position: absolute; */
   display: table;
   bottom: 0px;
@@ -68,10 +68,17 @@ a,
 
 }
 
-#about-footer {
-  position: absolute;
-  bottom: 0px;
-  height: 90px;
-  margin-left: 550px;
+/* contact */
 
+form{
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+#contact-title{
+  margin: 30px 50px 50px 550px;
+  padding: auto;
+  font-size: 50px;
+  text-decoration: underline;
 }
