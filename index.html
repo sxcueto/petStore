@@ -1,24 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- 
-Updates:
--adjusted footer position for all pages
--created form for contact page
--started styling contact page
--mapped out idea for the store's contact info
--->
-
-
-
-<!--
-    Requirments for pet store site:
-1. All of the pages should have the same navigation bar
-2. All of the pages should have the same footer
-3. Pet store should have a contact page
-
--->
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,19 +56,52 @@ Updates:
 
     <!--use .card-columns for pet photos; auto-adjusts as more pics are added-->
 
-    <div class="row justify-content-center">
-
+    <div class="row row-cols-3 g-4">
+        
         <!-- first pet photo -->
-        <div class="col-6 col-sm-3" id="pet">pet 1</div>
+        <div id="pet" class="col-sm-3">
+            <div class="card h-100" id="card-inside">
+                <img class="card-img-top" src=".../100px180/" alt="card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">pet 1</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati incidunt vel asperiores. Corrupti hic perferendis eaque, eum accusantium nesciunt in eius labore nobis amet asperiores, possimus cupiditate quo nisi.</p>
+                </div>
+            </div>
+        </div>
        
         <!-- second photo -->
-        <div class="col-6 col-sm-3" id="pet">pet 2</div>
+        <div id="pet" class="col-sm-3">
+            <div class="card h-100">
+                <img class="card-img-top" src=".../100px180/" alt="card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">pet 2</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati incidunt vel asperiores. Corrupti hic perferendis eaque, eum accusantium nesciunt in eius labore nobis amet asperiores, possimus cupiditate quo nisi.</p>
+                </div>
+            </div>
+        </div>
 
-        <div class="w-100"></div>
+        
         <!-- third photo -->
-        <div class="col-6 col-sm-3" id="pet" >pet 3</div>
+        <div id="pet" class="col-sm-3">
+            <div class="card h-100">
+                <img class="card-img-top" src=".../100px180/" alt="card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">pet 3</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati incidunt vel asperiores. Corrupti hic perferendis eaque, eum accusantium nesciunt in eius labore nobis amet asperiores, possimus cupiditate quo nisi.</p>
+                </div>
+            </div>
+        </div>
+
         <!-- fourth photo -->
-        <div class="col-6 col-sm-3" id="pet">pet 4</div>
+        <div id="pet" class="col-sm-3">
+            <div class="card h-100">
+                <img class="card-img-top" src=".../100px180/" alt="card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">pet 4</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati incidunt vel asperiores. Corrupti hic perferendis eaque, eum accusantium nesciunt in eius labore nobis amet asperiores, possimus cupiditate quo nisi.</p>
+                </div>
+            </div>
+        </div>
 
     </div>
 

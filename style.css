@@ -29,15 +29,13 @@ a,
 #email {
   bottom: 0px;
 }
-
 #pet {
-  background-color: aqua;
-  border: 2px solid black;
-  margin-top: 150px;
-  margin-right: 90px;
-  margin-bottom: 45px;
-  padding: 200px;
+  margin: auto;
+  padding: auto;
+}
 
+#card-inside :hover{
+      
 }
 
 footer {
@@ -68,16 +66,14 @@ footer {
 
 }
 
-/* contact */
+
+/* contact page */
 
 form{
   text-align: center;
   padding-bottom: 20px;
   
 }
-
-
-
 
 #contact-title{
   margin: auto;
@@ -91,4 +87,9 @@ form{
   h1{
       font-size:30px;
   }
+}
+
+#contact-buttons{
+  margin: auto;
+  padding: auto;
 }
