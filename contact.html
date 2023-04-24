@@ -25,12 +25,13 @@
     <!-- insert logo in nav -->
     <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand">Pet Store</a>
+            <a href="index.html" class="navbar-brand">Pet Store</a>
             <button type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" class="navbar-toggler"><span
                     class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="navbar-nav">
+                    <li><a href="market.html" class="nav-link">Products</a></li>
                     <li><a href="about.html" class="nav-link">About</a></li>
                     <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
@@ -44,7 +45,7 @@
     </nav>
 
  <h1 id="contact-title">Contact</h1>
-<!--ask Austin about buttons not showing up :( -->
+
 
     <!-- buttons with shop information (faq, email, phone number) -->
     <div class="container" id="contact-buttons">
@@ -64,53 +65,80 @@
       </div>  
     </div>
 
-
-
-
-
     <!-- form for customers to submit queries -->
     <form>
-        <fieldset>
-            <div class="form-group">
+            <div class="form-row">
+                <div class="form-group col-md-6">
                 <label hidden for="fname">Full name</label>
                 <input type="text" class='form-control-md' id="fname" placeholder="Enter your full name" required></input> 
-               <br><br>
-            </div>
-            <div class="form-group">
+           </div> 
+        
+            <div class="form-group col-md-6">
                 <label hidden for="email">Email:</label>
                 <input type="email" id="email" class='form-control-md' placeholder="Enter your email address" required></input><br><br>
             </div>
-            <div class="form-group"><label hidden for="message">Message:</label>
+            <div class="form-group col-md-6"><label hidden for="message">Message:</label>
                 <textarea id="message" class='form-control-md'placeholder="Enter your message"></textarea><br><br>
-                <button>Send</button>
+                <button type="submit" class="btn btn-primary">Send</button>
             </div>
-        </fieldset>
+            </div>
     </form>
 
 
 
-
-
-
-
-
-
-    <footer id="">
+<!--footer-->
+    <footer class="bg-dark text-center text-white">
         <!-- email subscription -->
-        <div class="container" id="email">
-            <h4 class="header">Subscribe for store updates!</h4>
+        <div class="container p-4 pb-0">
+           <section>
             <form>
-                <input type="email" placeholder="Enter your email address" target="#" required>
-                <button type="submit">Submit</button>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-auto">
+                        <p class="pt-2">
+                            <strong>Sign up for our store updates!</strong>
+                        </p>
+                    </div>
+                <div class="col-md-5 col-12">
+                    <div class="form-outline form-white mb-4">
+                <input type="email" class="form-control" placeholder="Enter your email address"  target="#" required/>
+                
+            </div>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-outline-light mb-4">Submit</button>
+            </div>
             </form>
         </div>
-
-        <!--copright and possible small text directory of the different categories?-->
-        <div class="container">
-
+    </section>
+    </div>
+        <!--copyright and possible small text directory of the different categories?-->
+        <div class="text-center p-3" style="background-color: rgba(0,0,0,0.2);">
+            Stephanie Cueto © 2023 
         </div>
-
     </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
