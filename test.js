@@ -1,6 +1,6 @@
 var shop = [
     {
-      title: 'Tigers',
+      title: 'Collar',
       image: './img/gerbile.jpg',
       price: '$7,500-15,000',
       description
@@ -20,3 +20,5 @@ var shop = [
         postHTML = postHTML + concatThis
     }
     document.getElementById('market').innerHTML = postHTML
+
+    

@@ -71,13 +71,9 @@ a,
 
 
 /* contact page */
-
-form{
+#googleForm{
   text-align: center;
-  
-  
 }
-
 #contact-title{
   margin: auto;
   padding: 20px 20px 40px 20px;
