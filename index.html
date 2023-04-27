@@ -2,14 +2,16 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Store</title>
+    
+    <title>Union Pet Shop</title>
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- fontawesome -->
-    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d236724bff.js" crossorigin="anonymous"></script>
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
@@ -24,8 +26,9 @@
     <!-- insert logo in nav -->
     <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand">Pet Store</a>
-            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" class="navbar-toggler"><span
+            <i class="fa-solid fa-dog fa-xl" style="color: #004040;"></i>
+            <a href="#" class="navbar-brand">Union Pet Shop</a>
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" class="navbar-toggler "><span
                     class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbar-menu">
@@ -37,42 +40,42 @@
 
                 <div class="search">
                     <input type="text" placeholder="Search" name="search">
-                    <button type="submit"><i class="fa fa-search"></i>Search</button>
+                    <button class="btn btn-primary btn-sm " type="submit"><i class="fa fa-search"></i>Search</button>
                 </div>
             </div>
         </div>
     </nav>
 
 
-    <!-- jumbotron with a picture that says meet your future pet or something -->
+    <!-- jumbotron -->
 
     <header class="jumbotron jumbotron-fluid">
         <div class="container-fluid text-center">
             <br><br>
             <h1 class="display-3">Howdy Pawdner!</h1>
-            <p class="lead pb-4">Browse through our website and find your fur-ever friend.</p>
-            <br><br>
-            <!-- <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn More</a></p> -->
+            <p class="lead pb-4">Find your fur-ever friend and some treats for them too!</p>
+
+            <p><a href="#friends" class="btn btn-primary btn-md" role="button">Let's go!</a></p>
         </div>
     </header>
     
-    <!-- add a second option to flip between cats and dogs on landing page -->
 
-    <!--use .card-columns for pet photos; auto-adjusts as more pics are added-->
+    <div id="header" class="page-header">
+        <h2>Featured Friends</h2>
+    </div>
 
-    
-<!--dogs-->
-    <div class="row row-cols-3 g-4">
+    <!--2 cats and 2 dogs then a button that says "see more"-->
+    <section id="friends">
+    <div class="row row-cols-sm- g-4 container-fluid">
 
         <!-- first pet photo -->
         <div id="pet" class="col-sm-3">
-            <div class="card h-100" id="card-inside">
-                <img class="card-img-top" src="img/dog1.jpg" alt="card image cap"> <!--photo by NordWood Themes -->
+            <div class="card.columns h-100" id="card-inside">
+                <img class="card-img-top" src="img/cat3.jpg" alt="Maine coon cat with a Christmas collar">
                 <div class="card-body">
-                    <h5 class="card-title">pet 1</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati
-                        incidunt vel asperiores. Corrupti hic perferendis eaque, eum accusantium nesciunt in eius labore
-                        nobis amet asperiores, possimus cupiditate quo nisi.</p>
+                    <h5 class="card-title">Cutie</h5>
+                    <p class="card-text">Loves pets and heating pads.</p>   
+                    
                 </div>
             </div>
         </div>
@@ -80,12 +83,10 @@
         <!-- second photo -->
         <div id="pet" class="col-sm-3">
             <div class="card h-100">
-                <img class="card-img-top" src="img/dog2.jpg" alt="card image cap"> <!--photo by Kabo-->
+                <img class="card-img-top" src="img/dog3.jpg" alt="Golden retriever"> 
                 <div class="card-body">
-                    <h5 class="card-title">pet 2</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati
-                        incidunt vel asperiores. Corrupti hic perferendis eaque, eum accusantium nesciunt in eius labore
-                        nobis amet asperiores, possimus cupiditate quo nisi.</p>
+                    <h5 class="card-title">Bear</h5>
+                    <p class="card-text">Loves to howl with firetrucks and swim in lakes.</p>
                 </div>
             </div>
         </div>
@@ -94,12 +95,10 @@
         <!-- third photo -->
         <div id="pet" class="col-sm-3">
             <div class="card h-100">
-                <img class="card-img-top" src="img/dog3.jpg" alt="card image cap"> <!--photo by Nita Anggraeni Goenawan-->
+                <img class="card-img-top" src="img/cat2.jpg" alt="Tabby cat"> 
                 <div class="card-body">
-                    <h5 class="card-title">pet 3</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati
-                        incidunt vel asperiores. Corrupti hic perferendis eaque, eum accusantium nesciunt in eius labore
-                        nobis amet asperiores, possimus cupiditate quo nisi.</p>
+                    <h5 class="card-title">Stitch</h5>
+                    <p class="card-text">Loves to play fetch and chase his toys.</p>
                 </div>
             </div>
         </div>
@@ -107,20 +106,28 @@
         <!-- fourth photo -->
         <div id="pet" class="col-sm-3">
             <div class="card h-100">
-                <img class="card-img-top" src="img/dog 4.jpg" alt="card image cap"> <!--photo by FLOUFFY-->
+                <img class="card-img-top" src="img/dog 4.jpg" alt="Pug with a pink, white, and brown t-shirt"> 
                 <div class="card-body">
-                    <h5 class="card-title">pet 4</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati
-                        incidunt vel asperiores. Corrupti hic perferendis eaque, eum accusantium nesciunt in eius labore
-                        nobis amet asperiores, possimus cupiditate quo nisi.</p>
+                    <h5 class="card-title">Rosie</h5>
+                    <p class="card-text">Loves to dress up and snuggle.</p>
                 </div>
             </div>
         </div>
 
+
     </div>
-<!--cats-->
 
+</section>
 
+<div class="container">   
+    <div class="col text-center">     
+    <button class="btn btn-primary" >Show me more!</button>
+    </div>
+</div>
+
+<div id="top">
+<a  href="#">Back to Top ↑</a>
+</div>
     <!-- footer-->
 
     <footer class="bg-dark text-center text-white">
@@ -141,7 +148,7 @@
             </div>
             </div>
             <div class="col-auto">
-                <button type="submit" class="btn btn-outline-light mb-4">Submit</button>
+                <button id="submit" type="submit" class="btn btn-outline-light mb-4">Submit</button>
             </div>
             </form>
         </div>

@@ -6,10 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- fontawesome -->
-    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d236724bff.js" crossorigin="anonymous"></script>
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
@@ -26,6 +24,7 @@
     <!-- insert logo in nav -->
     <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
+            <i class="fa-solid fa-dog fa-xl" style="color: #004040;"></i>
             <a href="index.html" class="navbar-brand">Pet Store</a>
             <button type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" class="navbar-toggler"><span
                     class="navbar-toggler-icon"></span></button>
@@ -39,39 +38,59 @@
 
                 <div class="search">
                     <input type="text" placeholder="Search" name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <button class="btn btn-primary btn-sm " type="submit"><i class="fa fa-search"></i>Search</button>
                 </div>
             </div>
         </div>
     </nav>
 
-    <h1 id="contact-title">Contact</h1>
+    <div id="header" class="page-header">
+        <h1>Contact Us</h1>
+      </div>
 
 
     <!-- buttons with shop information (faq, email, phone number) -->
-    <!-- <div class="container" id="contact-buttons">
+    <div class="container" id="contact-buttons">
         <div class="row ">
-        <div class="col">
+        <div class="col" id="faq-box">
             <h3>FAQ</h3>
-         
+            <i class="fa fa-question"></i>
+            <p id="class-text">Check out our answers to commonly asked questions.</p>
         </div>
-        <div class="col">
-           <h3>Call</h3>
+
+        <div class="col" id="">
+           <h3>Email</h3>
+           <i class="fa fa-envelope"></i>
+           <p id="class-text">petstore@petstore.com</p>
         </div>
+
         <div class="col">
-            <h3>Email</h3>
-            
+            <h3>Call</h3>
+            <i class="fa fa-phone "></i>
+             <p id="class-text">8am - 4pm EST <br>513-555-5555</p>
+           
+
+
         </div>
 
       </div>  
-    </div> -->
-
+    </div>
+<br>
     <!-- form for customers to submit queries -->
     <div class="container" id="googleForm">
         <iframe class="responsive-iframe"
             src="https://docs.google.com/forms/d/e/1FAIpQLSeZ4JaQeaHT0m3yLXR5zNP7ovcce_Ls6E5x-BK2zJuvOyIVxQ/viewform?embedded=true"
             width="640" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
+
+
+<!--back to top button-->
+<div id="top">
+    <a  href="#">Back to Top ↑</a>
+    </div>
+
+
+
 
     <!--footer-->
     <footer class="bg-dark text-center text-white">
@@ -93,7 +112,7 @@
                             </div>
                         </div>
                         <div class="col-auto">
-                            <button type="submit" class="btn btn-outline-light mb-4">Submit</button>
+                            <button id="submit" type="submit" class="btn btn-outline-light mb-4">Submit</button>
                         </div>
                 </form>
         </div>
